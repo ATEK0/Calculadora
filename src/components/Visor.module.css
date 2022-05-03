@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "lcd-font";
+  src: url("//public/PathwayGothicOne-Regular.ttf");
+}
+
+.mainVisor {
+  text-align: center;
+}
+
+.lcd_calculadora {
+  writing-mode: none;
+  text-align: right;
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  padding-right: 5px;
+  font-size: 25px;
+  color: white;
+  border-width: 0 0 1px;
+  border-color: gray;
+
+  /*font-family: "lcd-font";*/
+  background-color: black;
+  outline: none;
+}

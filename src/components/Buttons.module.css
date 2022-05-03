@@ -1,0 +1,35 @@
+.function_button {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: large;
+  font-weight: bold;
+  color: orangered;
+  background-color: black;
+  border: none;
+}
+
+.function_button:active {
+  opacity: 0.8;
+  background-color: rgb(58, 58, 58);
+}
+
+.number_button {
+  border-radius: 20px;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+
+.number_button:active {
+  opacity: 0.8;
+  background-color: rgb(58, 58, 58);
+}
+
+.calc_body {
+  margin: auto;
+}

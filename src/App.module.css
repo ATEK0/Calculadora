@@ -1,0 +1,17 @@
+.calculator {
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  width: 300px;
+  height: 350px;
+  background-color: black;
+}
+
+.titulo {
+  color: white;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
