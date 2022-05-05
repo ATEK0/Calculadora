@@ -5,7 +5,7 @@ function Visor(props) {
     <div className={classes.mainVisor}>
       <input
         id="visor"
-        value="11"
+        value={props.valorTela}
         readOnly="readonly"
         className={classes.lcd_calculadora}
         type="text"

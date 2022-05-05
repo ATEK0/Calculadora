@@ -1,5 +1,5 @@
-import ButtonsLayout from "./components/ButtonsLayout";
-import Visor from "./components/Visor";
+import CalcLayout from "./components/CalcLayout";
+
 import classes from "./App.module.css";
 
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -15,8 +15,7 @@ function App() {
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/2048px-Xiaomi_logo_%282021-%29.svg.png"
         />
       </h1>
-      <Visor />
-      <ButtonsLayout />
+      <CalcLayout />
     </div>
   );
 }
